@@ -1,0 +1,121 @@
+body {
+    color: #434455;
+    background-color: #ffffff;
+    font-family: sans-serif;
+    text-align: ;
+    position: relative;
+    width: 1440px;
+    height: 2590px;
+    }
+
+ul {
+  list-style: none;
+}
+/*.list {
+  list-style: none;
+}*/
+
+.logo {
+  color : #4D5AE5;
+;
+}    
+
+/*   Background-2-#E5E5E5;*/
+
+/* Body next : #434455;*/
+
+/* CTAs
+Focused
+Active states
+Links: #4D5AE5;*/
+
+/* CTAs background: #404BBF;*/
+
+/* Overlays Shadows Headings #2E2F42 /
+
+/* Valid fields
+Success messages #31D0AA */
+
+/* Helper text 
+Deemphasized text background: #8E8F99; */
+
+/* Accent color
+Hairlines
+Subtle backgrounds background: #E7E9FC; */
+
+/*Light mode backgrounds
+Light mode Dialogs/alerts background: #F4F4FD;*/
+
+/*  Modal  Overlay  background: background: background: rgba(46, 47, 66, 0.4);
+ */ 
+
+/* Hero image background "Hero background" background:box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.05) inset;
+;
+
+
+
+
+
+
+
+
+p {
+  font-size: 24px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.site-nav a {
+
+}
+
+.site-nav a :hover {
+
+}
+
+.link:hover,
+.link:focus {
+    color: ;
+}
+
+.link:active {
+    color: ;
+}
+
+.nav .link:hover {
+  color: ;
+}
+.site-nav-link {
+
+}
+
+.post-link [
+
+]
+
+ul {
+  list-style: none;
+} */
+
+/* Site nav*/
+
+.site-nav a {
+  color: #2E2F42;
+}
+
+.site-nav a:hover,
+.site-nav a:focus {
+  color: #4D5AE5;
+}
+.site-nav a:active {
+  color: #404BBF;
+}
+
+/* Site section*/
+ 
+.section-title {
+  color: #2E2F42;
+;
+}
