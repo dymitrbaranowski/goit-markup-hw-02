@@ -1,6 +1,24 @@
+:root {
+  --Primary-Brand:#4D5AE5;
+  --Pressed-state:#404BBF;
+  --Dark:#2E2F42;
+  --Success: #31D0AA;
+  --Text:#434455;
+  --Subtle-Text:#8E8F99;
+  --Accent:#E7E9FC;
+  --Light:#F4F4FD;
+  --Modal-overlay:rgba(46, 47, 66, 0.4);
+  --Hero-background:rgba(46, 47, 66, 0.7);
+  --B-g-color:#Ffffff;
+  --Nav-color:rgba(231, 233, 252, 1);
+  --Nav-color-secondary:
+rgba(255, 255, 255, 1);
+
+}
+
 body {
-    color: #434455;
-    background-color: #ffffff;
+    color: var(--Text)
+    background-color: var(--B-g-color)
     font-family: sans-serif;
     text-align: ;
     position: relative;
@@ -16,106 +34,89 @@ ul {
 }*/
 
 .logo {
-  color : #4D5AE5;
-;
-}    
-
-/*   Background-2-#E5E5E5;*/
-
-/* Body text : #434455;*/
-
-/* CTAs
-Focused
-Active states
-Links: #4D5AE5;*/
-
-/* CTAs background: #404BBF;*/
-
-/* Overlays Shadows Headings #2E2F42 /
-
-/* Valid fields
-Success messages #31D0AA */
-
-/* Helper text 
-Deemphasized text background: #8E8F99; */
-
-/* Accent color
-Hairlines
-Subtle backgrounds background: #E7E9FC; */
-
-/*Light mode backgrounds
-Light mode Dialogs/alerts background: #F4F4FD;*/
-
-/*  Modal  Overlay  background: background: background: rgba(46, 47, 66, 0.4);
- */ 
-
-/* Hero image background "Hero background" background:box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.05) inset;
-;
-
-
-
-
-
-
+  color :var(--Primary-Brand);
+}  
 
 
 p {
   font-size: 24px;
+  color:var(--Text)
 }
 
 a {
   text-decoration: none;
 }
 
-.site-nav a {
-
-}
-
-.site-nav a :hover {
-
-}
-
-.link:hover,
-.link:focus {
-    color: ;
-}
-
-.link:active {
-    color: ;
-}
-
-.nav .link:hover {
-  color: ;
-}
-.site-nav-link {
-
-}
-
-.post-link [
-
-]
-
-ul {
-  list-style: none;
-} */
-
 /* Site nav*/
 
 .site-nav a {
-  color: #2E2F42;
+  color:var(--Dark);
 }
 
 .site-nav a:hover,
 .site-nav a:focus {
-  color: #4D5AE5;
+  color:var( --Primary-Brand);
 }
 .site-nav a:active {
-  color: #404BBF;
+  color:var( --Pressed-state);
+}
+.site-nav .link-currrent {
+  color: var(--Primary-Brand);
 }
 
-/* Site section*/
+/* Site address */
+.auth-nav a {
+  color: var(--Text);
+}
+
+.auth-nav a:hover,
+.auth-nav a:focus {
+  color:var( --Primary-Brand);
+}
+.auth-nav a:active {
+  color:var( --Pressed-state);
+}
+
+/* Site hero*/
+.hero-title {
+  color:var(--B-g-color);
+}
+.hero-link {
+  color:var(--B-g-color);
+}
+
+/* S
+ite section*/
  
 .section-title {
-  color: #2E2F42;
-;
+  color:var(--Dark);
+}
+
+ /* Button */
+
+ .button {
+  color: var(--Primary-Brand);
+  background-color: var(--Accent);
+ }
+ .button.primary:hover,
+ .button.primery:focus {
+  color: var(--B-g-color);
+  background-color: var(--Primary-Brand);
+ }
+ .button.primary:active {
+  color: var(--B-g-color);
+  background-color: var(--Pressed-state);
+ } 
+ .button.primary {
+   color: var(--Primary-Brand);
+   background-color: var(--B-g-color)
+ } 
+ .button.secondary {
+   color: var(--B-g-color);
+   background-color: var(--Primary-Brand);
+ }
+.button.secondary:hover,
+.button.secondary:focus {
+  color: var(--B-g-color);
+  background-color: var(--Pressed-state);
 }
