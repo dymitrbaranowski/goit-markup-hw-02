@@ -11,62 +11,94 @@
   --Hero-background:rgba(46, 47, 66, 0.7);
   --B-g-color:#Ffffff;
   --Nav-color:rgba(231, 233, 252, 1);
-  --Nav-color-secondary:
-rgba(255, 255, 255, 1);
-
+  --Nav-color-secondary: rgba(255, 255, 255, 1);
 }
 
 body {
-    color: var(--Text)
-    background-color: var(--B-g-color)
-    font-family: sans-serif;
-    text-align: ;
-    position: relative;
-    width: 1440px;
-    height: 2590px;
-    }
 
+    color: var(--Text);
+    background-color: var(--B-g-color);
+    font-family: 'Roboto','Montserrat', 'Open Sans', sans-serif;
+    
+    }
+/*
 ul {
-  list-style: none;
-}
-/*.list {
   list-style: none;
 }*/
 
-.logo {
-  color :var(--Primary-Brand);
-}  
-
-
-p {
-  font-size: 24px;
-  color:var(--Text)
+.list {
+  list-style: none;
 }
-
+/*
 a {
   text-decoration: none;
 }
-
+*/
 /* Site nav*/
 
+.site-nav {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+.nav-logo .logo {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.3;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.accent {
+  color: var(--Dark);
+}
+.logo {
+  color :var(--Primary-Brand);
+  text-decoration: none;
+}  
+
+.logo-name {
+  color: var(--Dark);
+}
 .site-nav a {
   color:var(--Dark);
+  text-decoration: none;
 }
 
 .site-nav a:hover,
 .site-nav a:focus {
   color:var( --Primary-Brand);
+
 }
 .site-nav a:active {
   color:var( --Pressed-state);
 }
-.site-nav .link-currrent {
+.site-nav .link-current {
   color: var(--Primary-Brand);
 }
 
 /* Site address */
+
+.auth-nav {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+
+
+letter-spacing: 0.02em;
+
+}
 .auth-nav a {
-  color: var(--Text);
+  color: inherit;
+  text-decoration: none;
+  font-style: normal;
 }
 
 .auth-nav a:hover,
@@ -80,16 +112,88 @@ a {
 /* Site hero*/
 .hero-title {
   color:var(--B-g-color);
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1;
+  text-align: center;
+  letter-spacing: 0.02em;
 }
 .hero-link {
-  color:var(--B-g-color);
+  cursor: pointer;
+
 }
 
 /* S
-ite section*/
+ite section
+Our advantages*/
  
-.section-title {
+.section-features {
   color:var(--Dark);
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+
+}
+
+.section-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+
+/* Site sectin What are we doing*/
+
+.section-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.1;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+}
+
+/* Site sectin Our Team
+*/
+
+.section-team {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  text-align: center;
+  letter-spacing: 0.02em;
+}
+
+.team-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: center;
+  letter-spacing: 0.02em;
+}
+/* Footer*/
+
+.footer-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.02em;
 }
 
  /* Button */
@@ -99,7 +203,7 @@ ite section*/
   background-color: var(--Accent);
  }
  .button.primary:hover,
- .button.primery:focus {
+ .button.primary:focus {
   color: var(--B-g-color);
   background-color: var(--Primary-Brand);
  }
