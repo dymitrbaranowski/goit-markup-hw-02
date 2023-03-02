@@ -71,12 +71,12 @@ a {
   text-decoration: none;
 }
 
-.site-nav a:hover,
-.site-nav a:focus {
+.site-nav :hover,
+.site-nav :focus {
   color:var( --Primary-Brand);
 
 }
-.site-nav a:active {
+.site-nav :active {
   color:var( --Pressed-state);
 }
 .site-nav .link-current {
@@ -90,15 +90,12 @@ a {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
-
-
-letter-spacing: 0.02em;
+  letter-spacing: 0.02em;
 
 }
 .auth-nav a {
   color: inherit;
   text-decoration: none;
-  font-style: normal;
 }
 
 .auth-nav a:hover,
@@ -196,12 +193,26 @@ Our advantages*/
   letter-spacing: 0.02em;
 }
 
+/* Portflio.html */
+
+.advantages-link {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.04em;
+  cursor: pointer;
+}
+
  /* Button */
 
- .button {
+ /*.button {
   color: var(--Primary-Brand);
   background-color: var(--Accent);
  }
+ */
  .button.primary:hover,
  .button.primary:focus {
   color: var(--B-g-color);
@@ -212,8 +223,13 @@ Our advantages*/
   background-color: var(--Pressed-state);
  } 
  .button.primary {
-   color: var(--Primary-Brand);
-   background-color: var(--B-g-color)
+  color: var(--Primary-Brand);
+  background-color: var(--Light);
+  border: 1px solid #E7E9FC;
+  border-radius: 4px;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
  } 
  .button.secondary {
    color: var(--B-g-color);
