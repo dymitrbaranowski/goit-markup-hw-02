@@ -18,7 +18,7 @@ body {
 
     color: var(--Text);
     background-color: var(--B-g-color);
-    font-family: 'Roboto','Montserrat', sans-serif;
+    font-family: "Roboto", sans-serif;
     font-size: 16px;
     }
 /*
@@ -82,6 +82,14 @@ a {
   color: var(--Primary-Brand);
 }
 
+.link-studio {
+  color: var(--Dark);
+}
+
+.link-studio :hover,
+.link-studio :focus {
+  color: var(--Pressed-state);
+}
 .link {
   text-decoration: none;
 }
@@ -268,25 +276,26 @@ Our advantages*/
  */
  .button.primary:hover,
  .button.primary:focus {
-  color: var(--B-g-color);
-  background-color: var(--Primary-Brand);
+    color: var(--B-g-color);
+    background-color: var(--Primary-Brand);
  }
  .button.primary:active {
   color: var(--B-g-color);
   background-color: var(--Pressed-state);
  } 
  .button.primary {
-  color: var(--Primary-Brand);
-  background-color: var(--Light);
-  border: 1px solid #E7E9FC;
-  border-radius: 4px;
-  flex: none;
-  order: 1;
-  flex-grow: 0;
+    color: var(--Primary-Brand);
+    background-color: var(--Light);
+    border: 1px solid #E7E9FC;
+    border-radius: 4px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
  } 
  .button.secondary {
-   color: var(--B-g-color);
-   background-color: var(--Primary-Brand); 
+    color: var(--B-g-color);
+    background-color: var(--Primary-Brand); 
+    font-family: inherit;
    
  }
 .button.secondary:hover,
